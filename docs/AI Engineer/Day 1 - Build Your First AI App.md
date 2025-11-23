@@ -1,4 +1,4 @@
-# 🚀 **Day 1 of Becoming an AI Engineer — Build Your First AI App (Beginner Friendly)**
+# Build Your First AI App
 
 So you finally decided to become an AI Engineer?
 
@@ -101,7 +101,7 @@ async function run() {
   const response = await client.chat.completions.create({
     model: "gpt-4o-mini",
     messages: [
-      { role: "system", content: "You are Puneet's personal AI guide." },
+      { role: "system", content: "You are scriptshady's personal AI guide." },
       {
         role: "user",
         content: "Tell me a short motivational line to start my AI journey.",
